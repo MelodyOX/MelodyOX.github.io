@@ -1,0 +1,175 @@
+/**
+ * MCLauncher 5.3 页面样式
+ * 按原站视觉整理，仅保留页面实际使用的规则。
+ */
+
+body, div, h1, h2, h3, h4, h5, h6, p, ul, li, img {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #333333;
+  background: #ffffff;
+  font-family: Arial;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+a {
+  color: #0099ff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #000000;
+}
+
+img {
+  border: 0;
+  vertical-align: top;
+}
+
+ul {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* 页面头部 */
+.header {
+  height: 110px;
+  margin-bottom: 10px;
+  background-color: #c4e5ea;
+}
+
+.header-main {
+  position: relative;
+  width: 700px;
+  height: 110px;
+  margin: 0 auto;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 332px;
+  padding-top: 25px;
+}
+
+.logo a {
+  color: #000000;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.tagline {
+  position: absolute;
+  top: 74px;
+  right: 0;
+  width: 350px;
+  color: #333333;
+  font-size: 12px;
+  text-align: right;
+}
+
+/* 正文 */
+.content {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.page-title {
+  margin-bottom: 21px;
+  color: #ff0000;
+}
+
+.intro-block {
+  margin-bottom: 21px;
+}
+
+.intro-block h2 {
+  margin-bottom: 10px;
+}
+
+.intro-text {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.intro-text + .intro-text {
+  margin-top: 10px;
+}
+
+.download-link {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* 启动器信息 */
+.indent {
+  padding-left: 40px;
+}
+
+.launcher-heading {
+  margin-bottom: 21px;
+}
+
+.meta {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.features {
+  margin-top: 21px;
+  margin-bottom: 21px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.features li::before {
+  content: ">";
+}
+
+.warning {
+  margin-bottom: 42px;
+  color: #ff0000;
+  font-size: 14px;
+  font-weight: bold;
+  text-indent: 2em;
+}
+
+.version-title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.preview-label {
+  color: #000000;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.preview {
+  margin-bottom: 21px;
+}
+
+.preview-current img {
+  width: 660px;
+  height: auto;
+}
+
+.preview-old img {
+  width: 466px;
+  height: 293px;
+}
+
+/* 页尾横幅 */
+.banner {
+  text-align: center;
+}
